@@ -10,7 +10,7 @@ public class buffer : MonoBehaviour
 	void Start() 
 	{ 
 		A = new RenderTexture(1024,1024,0);
-		A.Create();	
+		A.Create() ;	
 		B = new RenderTexture(1024,1024,0);
 		B.Create();	
 	}
